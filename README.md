@@ -1,4 +1,4 @@
-# AI Interview
+# AI Interview for Screenit Solutions
 
 ## Project Description
 AI Interview is a project designed to help recruiters conduct the initiasl interview round with the help of AI.
