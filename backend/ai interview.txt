@@ -1,0 +1,65 @@
+skill		-> skill_id (PK), name
+
+skill_question	-> skill_id (FK), question, time_to_answer, difficulty -> beginner, intermediate, expert
+
+jd_questions	-> jd_id (pK), skill_id (FK), questions (based on experience)
+
+
+
+
+
+30 mins
+
+============================================================================================================
+
+
+
++create JD -> Skill as Array = [React, Node, PostgreSQL]
+
+React		- Beginner - 50, Intermediate - 50, Expert - 100
+Node		- Beginner - 50, Intermediate - 50, Expert - 100
+PostgreSQL	- Beginner - 50, Intermediate - 50, Expert - 100
+
+
+
+Resume Upload -> jd Experiene - 2 - 5 -> Intermediate
+
+45 Min
+
+24 Min - Intermediate
+6 Min - Expert, Beginner
+
+
+
+Table - JD, JD_SKILL, SKILL, SKILL_QUESTIONS, SCHEDULE, CANDIDATE
+=================================================================
+
+JD - JD_ID (PK), TITLE
+
+JD_SKILL - JD_SKILL (PK), JD_ID (FK), SKILL_ID (FK)
+
+SKILL - SKILL_ID (PK), NAME
+
+QUESTION - QUESTION_ID (PK), SKILL_ID (FK), QUESTIONS, TimeToAnswer, DIFFICULTY
+
+CANDITATE - CANDITATE_ID (PK), Email, NAME
+
+SCHEDULE_QUESTION - SCHEDULE_QUESTION_ID (PK), SCHEDULE_ID (FK), QUESTION_ID (FK), ANSWER, SCORE, COMMENTS		    	- for each q
+
+SCHEDULE - SCHEDULE_ID (PK), CANDITATE_ID (FK), JD_ID (FK), InterviewTime, SCORE, FinalComments	                        - overall q
+
+
+
+
+
+
+
+
+
+
+
+
+
+482320fb-eec1-4c30-9e37-94f844d97fa3            |   AR CAller
+616d830c-7e11-4765-a78e-700f9c76b5ba            |   Senior GenAI Engineer
+02f24225-5362-48c9-9321-a61a91f90310            |   Lead Engineer
