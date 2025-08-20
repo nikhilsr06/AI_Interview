@@ -1,10 +1,27 @@
 # AI Interview
 
 ## Project Description
-AI Interview is a project designed to help users prepare for job interviews in the field of artificial intelligence. It provides a collection of commonly asked interview questions, along with detailed answers and explanations.
+AI Interview is a project designed to help recruiters conduct the initiasl interview round with the help of AI.
 
 ## Purpose
-The purpose of this project is to assist job seekers in enhancing their understanding of AI concepts, improving their interview skills, and boosting their confidence during the interview process.
+The purpose of this project is to fasten the hiring process.
+
+## Workflow
+
+1. **Extracting Information from Job Description:**  
+   The first step is to analyze and extract relevant skills and requirements from the provided job description.
+
+2. **Generating Questions:**  
+   Based on the extracted details, the system generates a set of interview questions tailored to the required skills for the position.
+
+3. **Candidate Resume Analysis:**  
+   When the candidate uploads their resume, the system reviews it and selects appropriate questions. The selection is optimized based on the available time limit for the interview.
+
+4. **Interview Execution:**  
+   The interview is conducted using the selected questions, providing a structured and targeted assessment for the candidate.
+
+5. **Candidate Evaluation:**  
+   The candidate's answers are then evaluated by the AI. This helps us tell how good the candidate is for the role.
 
 ## Setup Instructions
 1. Clone the repository:
@@ -15,13 +32,6 @@ The purpose of this project is to assist job seekers in enhancing their understa
    ```bash
    cd AI_Interview
    ```
-3. Install any necessary dependencies (if applicable):
-   ```bash
-   # Example for Python projects
-   pip install -r requirements.txt
-   ```
+3. Install the necessary dependencies (if applicable)
+4. Change the gemini api key in the .env file
 
-## Usage
-To use this project, simply navigate through the questions and answers available in the repository. You can practice answering the questions and compare your responses with the provided answers.
-
-Feel free to contribute by adding more questions or improving the existing content!
